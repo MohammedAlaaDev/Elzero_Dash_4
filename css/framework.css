@@ -1,0 +1,973 @@
+/* Start Variables */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+
+/* End Variables */
+/* Start Fonts */
+
+.fs-10px {
+    font-size: 10px;
+}
+
+.fs-13px {
+    font-size: 13px !important;
+}
+
+.fs-14px {
+    font-size: 14px !important;
+}
+
+.fs-15px {
+    font-size: 15px !important;
+}
+
+.fs-16px {
+    font-size: 16px;
+}
+
+.fs-17px {
+    font-size: 17px;
+}
+
+.fs-18px {
+    font-size: 18px;
+}
+
+.fs-20px {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .fs-20px-mobile {
+        font-size: 20px;
+    }
+}
+
+.fs-22px {
+    font-size: 22px;
+}
+
+.fs-25px {
+    font-size: 25px;
+}
+
+.fs-30px {
+    font-size: 30px;
+}
+
+.fs-40px {
+    font-size: 40px;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+/* End Fonts */
+/* Start Width Height */
+
+.w-ft {
+    width: fit-content;
+}
+
+.w-20px {
+    width: 20px;
+}
+
+.w-25px {
+    width: 25px;
+}
+
+.w-30px {
+    width: 30px;
+}
+
+.w-35px {
+    width: 35px;
+}
+
+.w-40px {
+    width: 40px;
+}
+
+.w-50px {
+    width: 50px;
+}
+
+.w-55px {
+    width: 55px;
+}
+
+.w-60px {
+    width: 60px;
+}
+
+.w-65px {
+    width: 65px;
+}
+
+.w-70px {
+    width: 70px;
+}
+
+.w-75px {
+    width: 75px;
+}
+
+.w-80px {
+    width: 80px;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.w-110px {
+    width: 110px;
+}
+
+.w-125px {
+    width: 125px;
+}
+
+.w-150px {
+    width: 150px;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.w-260px {
+    width: 260px;
+}
+
+.w-300px {
+    width: 300px;
+}
+
+.w-400px {
+    width: 400px;
+}
+
+.w-500px {
+    width: 500px;
+}
+
+
+.w-35percent {
+    width: 35%;
+}
+
+.w-60percent {
+    width: 60%;
+}
+
+.w-100percent {
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    .w-100percent-mobile {
+        width: 100%;
+    }
+}
+
+.flexb-15percent {
+    flex-basis: 15%;
+}
+
+.flexb-30percent {
+    flex-basis: 30%;
+}
+
+.h-ft {
+    height: fit-content;
+}
+
+.h-1px {
+    height: 1px;
+}
+
+.h-3px {
+    height: 3px;
+}
+
+.h-5px {
+    height: 5px;
+}
+
+.h-8px {
+    height: 8px;
+}
+
+.h-10px {
+    height: 10px;
+}
+
+.h-15px {
+    height: 15px;
+}
+
+.h-20px {
+    height: 20px;
+}
+
+.h-25px {
+    height: 25px;
+}
+
+.h-30px {
+    height: 30px;
+}
+
+.h-34px {
+    height: 34px;
+}
+
+.h-35px {
+    height: 35px;
+}
+
+.h-40px {
+    height: 40px;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.h-160px {
+    height: 160px;
+}
+
+.h-100percent {
+    height: 100%;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+/* End Width Height */
+/* Start Padding + Margin */
+
+.mt-5px {
+    margin-top: 5px;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+
+.mt-15px {
+    margin-top: 15px;
+}
+
+.mt-20px {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .mt-20px-mobile {
+        margin-top: 20px;
+    }
+}
+
+.mt-30px {
+    margin-top: 30px;
+}
+
+.mt-40px {
+    margin-top: 40px;
+}
+
+.mt-80px {
+    margin-top: 80px;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.mr-5px {
+    margin-right: 5px;
+}
+
+.mr-10px {
+    margin-right: 10px;
+}
+
+.mr-20px {
+    margin-right: 20px;
+}
+
+.mb-5px {
+    margin-bottom: 5px;
+}
+
+.mb-8px {
+    margin-bottom: 8px;
+}
+
+.mb-10px {
+    margin-bottom: 10px;
+}
+
+.mb-15px {
+    margin-bottom: 15px;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.mb-25px {
+    margin-bottom: 25px;
+}
+
+.mb-30px {
+    margin-bottom: 30px;
+}
+
+@media (max-width:767px) {
+    .mb-mobile-30px {
+        margin-bottom: 30px;
+    }
+}
+
+.mb-40px {
+    margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+    .mb-mobile-40px {
+        margin-bottom: 40px;
+    }
+}
+
+.mb-50px {
+    margin-bottom: 50px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.ml-5px {
+    margin-left: 5px;
+}
+
+.ml-10px {
+    margin-left: 10px;
+}
+
+.p-2px {
+    padding: 2px;
+}
+
+.p-5px {
+    padding: 5px;
+}
+
+.p-10px {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .p-10px-mobile {
+        padding: 10px !important;
+    }
+}
+
+.p-15px {
+    padding: 15px !important;
+}
+
+.p-20px {
+    padding: 20px;
+}
+
+.p-25px {
+    padding: 25px;
+}
+
+.p-30px {
+    padding: 30px;
+}
+
+.pt-10px {
+    padding-top: 10px;
+}
+
+.pt-15px {
+    padding-top: 15px;
+}
+
+.pt-20px {
+    padding-top: 20px;
+}
+
+.pr-10px {
+    padding-right: 10px;
+}
+
+.pr-30px {
+    padding-right: 30px;
+}
+
+.pb-10px {
+    padding-bottom: 10px;
+}
+
+.pb-15px {
+    padding-bottom: 15px;
+}
+
+.pb-20px {
+    padding-bottom: 20px;
+}
+
+.pl-10px {
+    padding-left: 10px;
+}
+
+.pl-15px {
+    padding-left: 15px;
+}
+
+.pl-20px {
+    padding-left: 20px;
+}
+
+.pl-30px {
+    padding-left: 30px;
+}
+
+.pl-40px {
+    padding-left: 40px;
+}
+
+.pl-45px {
+    padding-left: 45px;
+}
+
+/* End Padding + Margin */
+/* Start Box */
+.overflowx-scroll {
+    overflow-x: scroll;
+    display: block;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+@media (max-width:767px) {
+    .flex-col-mobile {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:767px) {
+    .flex-col-reverse-mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 415px) {
+    .flex-col-small {
+        flex-direction: column;
+    }
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    .flex-1-mobile {
+        flex: 1;
+    }
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+@media (max-width:767px) {
+    .ai-normal-mobile {
+        align-items: normal !important;
+    }
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-5px {
+    gap: 5px;
+}
+
+.gap-10px {
+    gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .gap-mobile-10px {
+        gap: 10px;
+    }
+}
+
+.gap-15px {
+    gap: 15px;
+}
+
+@media (max-width: 767px) {
+    .gap-15px-mobile {
+        gap: 15px !important;
+    }
+}
+
+.gap-20px {
+    gap: 20px;
+}
+
+.gap-30px {
+    gap: 30px;
+}
+
+.gap-40px {
+    gap: 40px;
+}
+
+.b-shadow {
+    box-shadow: 2px 2px 8px -1px #00000047;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+.appearance-none {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .center-mobile {
+        text-align: center;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* End Box */
+/* Start Colors */
+.bg-white {
+    background-color: white !important;
+}
+
+.bg-eee {
+    background-color: #eeeeee
+}
+
+.bg-ddd {
+    background-color: #dddddd;
+}
+
+.bg-ccc {
+    background-color: #ccc;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-lightBlue {
+    background-color: rgb(0 117 255 / 20%);
+}
+
+.bg-blueAlt {
+    background-color: var(--blue-alt-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-lightOrange {
+    background-color: rgb(245 159 10 / 20%);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-lightGreen {
+    background-color: rgb(33 196 93 / 20%);
+}
+
+.bg-red {
+    background-color: var(--red-color) !important;
+}
+
+.bg-lightRed {
+    background-color: rgb(244 67 54 / 20%);
+}
+
+.bg-grey {
+    background-color: var(--grey-color);
+}
+
+.c-777 {
+    color: #777
+}
+
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-blueAlt {
+    color: var(--blue-alt-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+.c-grey {
+    color: var(--grey-color);
+}
+
+.hover-red:hover {
+    color: var(--red-color);
+}
+
+.hover-white:hover {
+    color: white;
+}
+
+.hover-bg-f2f1f1:hover {
+    background-color: #f2f1f1;
+}
+
+.hover-bg-blue:hover {
+    background-color: var(--blue-color);
+}
+
+.hover-bg-alt-blue:hover {
+    background-color: var(--blue-alt-color);
+}
+
+.opacity-quard {
+    opacity: 0.25;
+}
+
+/* End Colors */
+/* Start Positions */
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-fix {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-10px {
+    top: 10px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.right-10px {
+    right: 10px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.left-10px {
+    left: 10px;
+}
+
+/* End Positions */
+/* Start Transitions */
+.transition-0dot3 {
+    transition: 0.3s;
+}
+
+/* End Transitions */
+/* Start Border */
+
+.rad-50percent {
+    border-radius: 50%;
+}
+
+.rad-5px {
+    border-radius: 5px;
+}
+
+.rad-10px {
+    border-radius: 10px;
+}
+
+.rad-18px {
+    border-radius: 18px;
+}
+
+.b-none {
+    border: none;
+}
+
+/* End Border */
+
+/* Start Component  */
+
+.between-flex {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.center-flex {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.around-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-shape-general {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-shape {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: var(--blue-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-shape-2 {
+    padding: 4px 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.b-ddd {
+    border: 1px solid #ddd;
+}
+
+.b-ddd-bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.b-eee {
+    border: 1px solid #eee;
+}
+
+.b-eee-bottom {
+    border-bottom: 1px solid #eee;
+}
+
+.b-eee-top {
+    border-top: 1px solid #eee;
+}
+
+.input-border {
+    border: 1px solid #0000003d;
+}
+
+.b-white {
+    border: 1px solid white;
+}
+
+.b-white-2px {
+    border: 2px solid white;
+}
+
+input[type="checkbox"]:checked+.switch,
+input[type="checkbox"]:checked+.small-switch {
+    background-color: var(--blue-color);
+}
+
+input[type="checkbox"]:checked+.switch::before,
+input[type="checkbox"]:checked+.small-switch::before {
+    content: "\f058";
+}
+
+input[type="checkbox"]:checked+.switch::before {
+    left: calc(100% - 30px);
+}
+
+input[type="checkbox"]:checked+.small-switch::before {
+    left: calc(100% - 20px);
+}
+
+
+.switch,
+.small-switch {
+    position: relative;
+    border-radius: 18px;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.switch {
+    width: 80px;
+    height: 34px;
+}
+
+.small-switch {
+    width: 85px;
+    height: 22px;
+}
+
+.switch::before,
+.small-switch::before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f057";
+    color: white;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+.small-switch::before {
+    font-size: 16px;
+}
+
+.switch::before {
+    font-size: 25px;
+}
+
+/* End Component  */
+
+/* Start Events */
+.curs-pointer {
+    cursor: pointer;
+}
+
+.resize-none {
+    resize: none;
+}
+
+/* End Events */

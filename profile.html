@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- FrameWork CSS File -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <!-- Start Profile Page -->
+    <div class="page d-flex">
+        <!-- Start Sidebar -->
+        <div class="sidebar b-shadow pos-rel flexb-15percent p-20px bg-white">
+            <h3 class="center fs-20px pos-rel mb-50px w-ft mr-auto ml-auto fs-20px-mobile">Elzero</h3>
+            <div class="sidebar-content">
+                <ul class="jc-sb flex-wrap">
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="dashboard.html"
+                            class="d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-solid fa-chart-bar pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Dashboard</span></a>
+                    </li>
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="settings.html"
+                            class="d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-solid fa-gear pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Settings</span></a>
+                    </li>
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="profile.html"
+                            class="active d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-regular fa-user pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Profile</span></a>
+                    </li>
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="projects.html"
+                            class="d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-solid fa-code-fork pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Projects</a>
+                    </li>
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="courses.html"
+                            class="d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-solid fa-graduation-cap pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Courses</span></a></li>
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="friends.html"
+                            class="d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-regular fa-circle-user pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Friends</span></a></li>
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="files.html"
+                            class="d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-regular fa-file pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Files</span></a>
+                    </li>
+                    <li class="mb-10px fs-15px p-10px-mobile"><a href="plans.html"
+                            class="d-flex c-black p-15px transition-0dot3 p-10px-mobile rad-5px"><i
+                                class="fa-regular fa-credit-card pr-10px fa-fw d-flex jc-center ai-center"></i>
+                            <span class="hide-mobile">Plans</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Sidebar -->
+        <!-- Start Content -->
+        <div class="content p-20px flex-1 p-10px-mobile">
+            <!-- Start Head -->
+            <div class="content-head between-flex gap-10px flex-col-small">
+                <form class="pos-rel">
+                    <i class="fa-solid fa-magnifying-glass pos-abs"></i>
+                    <input class="rad-10px p-10px pl-30px" type="search" placeholder="Type A Keyword">
+                </form>
+                <div class="imgs d-flex ai-center gap-10px">
+                    <div class="image w-50px curs-pointer">
+                        <img class="w-100percent rad-50percent" src="images/notifications.jpg" alt="">
+                    </div>
+                    <div class="image w-50px curs-pointer">
+                        <img class="w-100percent rad-50percent" src="images/avatar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- End Head -->
+            <!-- Start Main Title -->
+            <h1 class="mt-20px fs-30px pb-10px pos-rel w-ft">Profile</h1>
+            <!-- End Main Title -->
+            <!-- Start Profile Info -->
+            <div
+                class="profile-info bg-white mt-40px p-20px rad-10px mb-20px mb-mobile-40px d-flex jc-sb flex-col-mobile">
+                <div class="stats d-flex ai-center flex-col flexb-30percent mb-mobile-40px">
+                    <img class="w-125px d-block rad-50percent" src="images/avatar.jpg" alt="">
+                    <h3 class="fs-18px mt-10px mb-10px">Osama Elzero</h3>
+                    <span class="d-block mb-10px c-grey">Level 20</span>
+                    <div class="progress rad-10px bg-eee w-150px h-5px overflow-hidden">
+                        <span class="d-block bg-blue rad-10px h-100percent" style="width:70%"></span>
+                    </div>
+                    <div class="rating mt-10px mb-10px">
+                        <i class="fa-solid fa-star c-grey checked"></i>
+                        <i class="fa-solid fa-star c-grey checked"></i>
+                        <i class="fa-solid fa-star c-grey checked"></i>
+                        <i class="fa-solid fa-star c-grey checked"></i>
+                        <i class="fa-solid fa-star c-grey checked"></i>
+                    </div>
+                    <span class="d-block c-grey">550 Rating</span>
+                </div>
+                <div class="info flex-1">
+                    <div class="rows d-flex flex-col gap-20px">
+                        <div class="row">
+                            <h4 class="c-grey mb-20px fw-normal pl-15px">General Information</h4>
+                            <div class="data d-flex flex-wrap pl-15px">
+                                <p class="c-grey fs-14px">Full Name: <span class="c-black">Osama Mohamed</span></p>
+                                <p class="c-grey fs-14px">Gender: <span class="c-black">Male</span></p>
+                                <p class="c-grey fs-14px">Country: <span class="c-black">Egypt</span></p>
+                                <label class="d-flex">
+                                    <input type="checkbox" class="appearance-none" checked>
+                                    <div class="small-switch">
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h4 class="c-grey mb-20px fw-normal pl-15px">Personal Information</h4>
+                            <div class="data d-flex flex-wrap pl-15px">
+                                <p class="c-grey fs-14px">Email: <span class="c-black">o@nn.sa</span></p>
+                                <p class="c-grey fs-14px">Phone: <span class="c-black">019123456789</span></p>
+                                <p class="c-grey fs-14px">Date Of Birth: <span class="c-black">25/10/1982</span></p>
+                                <label class="d-flex">
+                                    <input type="checkbox" class="appearance-none">
+                                    <div class="small-switch">
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h4 class="c-grey mb-20px fw-normal pl-15px">Job Information</h4>
+                            <div class="data d-flex flex-wrap pl-15px">
+                                <p class="c-grey fs-14px">Title: <span class="c-black">Full Stack Developer</span></p>
+                                <p class="c-grey fs-14px">Programming Language: <span class="c-black">Python</span></p>
+                                <p class="c-grey fs-14px">Years Of Experience: <span class="c-black">15+</span></p>
+                                <label class="d-flex">
+                                    <input type="checkbox" class="appearance-none" checked>
+                                    <div class="small-switch">
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h4 class="c-grey mb-20px fw-normal pl-15px">Billing Information</h4>
+                            <div class="data d-flex flex-wrap pl-15px">
+                                <p class="c-grey fs-14px">Payment Method: <span class="c-black">Paypal</span></p>
+                                <p class="c-grey fs-14px">Email: <span class="c-black">email@website.com</span></p>
+                                <p class="c-grey fs-14px">Subscription: <span class="c-black">Monthly</span></p>
+                                <label class="d-flex">
+                                    <input type="checkbox" class="appearance-none" checked>
+                                    <div class="small-switch">
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Profile Info -->
+            <!-- Start Skills & Latest Activities Container -->
+            <div class="skills-and-activities d-flex gap-20px flex-wrap">
+                <!-- Start My Skills -->
+                <div class="my-skills bg-white p-20px rad-10px center-mobile">
+                    <h2 class="fs-25px mb-20px">My Skills</h2>
+                    <p class="c-grey mb-30px">Complete Skills List</p>
+                    <div class="row jc-center-mobile">
+                        <span>HTML</span>
+                        <span>Pugjs</span>
+                        <span>HAML</span>
+                    </div>
+                    <div class="row jc-center-mobile">
+                        <span>CSS</span>
+                        <span>SASS</span>
+                        <span>Stylus</span>
+                    </div>
+                    <div class="row jc-center-mobile">
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="row jc-center-mobile">
+                        <span>Vuejs</span>
+                        <span>Reactjs</span>
+                    </div>
+                    <div class="row jc-center-mobile">
+                        <span>jest</span>
+                        <span>jasmine</span>
+                    </div>
+                    <div class="row jc-center-mobile">
+                        <span>PHP</span>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="row jc-center-mobile">
+                        <span>Python</span>
+                        <span>Django</span>
+                    </div>
+                </div>
+                <!-- End My Skills -->
+                <!-- Start Latest Activities -->
+                <div class="latest-activities bg-white p-20px rad-10px flex-1 center-mobile">
+                    <h2 class="fs-25px mb-20px">Latest Activities</h2>
+                    <p class="c-grey mb-30px">Latest Activities Done By The User</p>
+                    <div class="boxes">
+                        <div class="box between-flex gap-30px flex-col-mobile center-mobile gap-15px-mobile">
+                            <div class="activity d-flex ai-center gap-15px flex-col-mobile">
+                                <img class="d-block w-65px" src="images/activity-01.png" alt="">
+                                <div class="info">
+                                    <h3 class="mb-5px fw-normal">Store</h3>
+                                    <p class="c-grey">Bought The Mastering Python Course</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <span class="d-block mb-5px right center-mobile">18:10</span>
+                                <span class="d-block c-grey">Yesterday</span>
+                            </div>
+                        </div>
+                        <div class="box between-flex gap-30px flex-col-mobile center-mobile gap-15px-mobile">
+                            <div class="activity d-flex ai-center gap-15px flex-col-mobile">
+                                <img class="d-block w-65px" src="images/activity-02.png" alt="">
+                                <div class="info">
+                                    <h3 class="mb-5px fw-normal">Academy</h3>
+                                    <p class="c-grey">Got The PHP Certificate</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <span class="d-block mb-5px right center-mobile">16:05</span>
+                                <span class="d-block c-grey">Yesterday</span>
+                            </div>
+                        </div>
+                        <div class="box between-flex gap-30px flex-col-mobile center-mobile gap-15px-mobile">
+                            <div class="activity d-flex ai-center gap-15px flex-col-mobile">
+                                <img class="d-block w-65px" src="images/activity-03.png" alt="">
+                                <div class="info">
+                                    <h3 class="mb-5px fw-normal">Badges</h3>
+                                    <p class="c-grey">Unlocked The 10 Skills Badges</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <span class="d-block mb-5px right center-mobile">18:05</span>
+                                <span class="d-block c-grey">Yesterday</span>
+                            </div>
+                        </div>
+                        <div class="box between-flex gap-30px flex-col-mobile center-mobile gap-15px-mobile">
+                            <div class="activity d-flex ai-center gap-15px flex-col-mobile">
+                                <img class="d-block w-65px" src="images/activity-01.png" alt="">
+                                <div class="info">
+                                    <h3 class="mb-5px fw-normal">Store</h3>
+                                    <p class="c-grey">Bought The TypeScript Course</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <span class="d-block mb-5px right center-mobile">12:05</span>
+                                <span class="d-block c-grey">Yesterday</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Latest Activities -->
+            </div>
+            <!-- End Skills & Latest Activities Container -->
+        </div>
+        <!-- End Content -->
+    </div>
+    <!-- End Profile Page -->
+</body>
+
+</html>
